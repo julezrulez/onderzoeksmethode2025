@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.1.1">
+<meta name="generator" content="ReSpec 35.3.0">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;background:var(--indextable-hover-bg,#fff);color:#000;color:var(--text,#000);box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);box-shadow:0 1em 3em -.4em var(--tocsidebar-shadow,rgba(0,0,0,.3)),0 0 1px 1px var(--tocsidebar-shadow,rgba(0,0,0,.05));border-radius:2px}
@@ -52,7 +52,7 @@ a.bibref{text-decoration:none}
 .respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
-cite .bibref{font-style:normal}
+cite .bibref{font-style:italic}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 ol.tof,ul.tof{list-style:none outside none}
@@ -80,8 +80,9 @@ dd{margin-left:0}
 }
 </style>
 <style id="respec-nlgov">
-img.license{float:left;padding-right:5px}
+img.license{float:left;padding-right:5px;background:0 0}
 </style>
+<meta name="color-scheme" content="light">
 <style>
 ul.index{columns:30ch;column-gap:1.5em}
 ul.index li{list-style:inherit}
@@ -244,7 +245,7 @@ ul.index code{color:inherit}
     null
   ]
 }</script>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/base.css"></head>
+<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/base.css"></head>
   <body class="h-entry informative toc-inline"><div class="head">
     <a class="logo" href="https://www.ictu.nl"><img alt="ICTU" height="160" id="ICTU" src="https://www.ictu.nl/wp-content/themes/ictu/dist/images/logo.svg" width="50">
   </a> <h1 id="title" class="title">Titel staat in config.js</h1>
@@ -275,14 +276,1440 @@ ul.index code{color:inherit}
     
     
     <p class="copyright">
-          Dit document valt onder de volgende licentie: 
-          <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode" class="subfoot"><img class="license" src="https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by.svg" alt="Logo Creative Commons Attribution 4.0 International Public License"><br> Creative Commons Attribution 4.0 International Public License</a>
-        </p>
+            Dit document valt onder de volgende licentie: 
+            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode" class="subfoot"><img class="license" src="https://gitdocumentatie.logius.nl/publicatie/respec/media/logos/cc-by.svg" alt="Logo Creative Commons Attribution 4.0 International Public License"><br> Creative Commons Attribution 4.0 International Public License</a>
+          </p>
     <hr title="Separator for header">
   </div>
     <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Tekst</p>
 </section>
-    <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een document zonder officiële status.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li></ol></nav>
+    <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is een document zonder officiële status.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#x1-verantwoording-kwantitatieve-methoden-inclusief-lijst-van-nederlandse-organisaties"><bdi class="secno">1. </bdi>1. Verantwoording kwantitatieve methoden (inclusief lijst van Nederlandse organisaties)</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#x1-1-doelstelling"><bdi class="secno">1.1 </bdi>1.1. Doelstelling</a></li><li class="tocline"><a class="tocxref" href="#x1-2-operationalisatie"><bdi class="secno">1.2 </bdi>1.2 Operationalisatie</a></li><li class="tocline"><a class="tocxref" href="#x1-3-analysestappen"><bdi class="secno">1.3 </bdi>1.3 Analysestappen</a></li><li class="tocline"><a class="tocxref" href="#x1-4-beschikbaarheid-van-gegevens"><bdi class="secno">1.4 </bdi>1.4 Beschikbaarheid van gegevens</a></li></ol></li><li class="tocline"><a class="tocxref" href="#x2-overzicht-gegevensverzameling-per-sdo"><bdi class="secno">2. </bdi>2. Overzicht gegevensverzameling per SDO</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#x2-1-cen-en-cenelec"><bdi class="secno">2.1 </bdi>2.1 CEN en CENELEC</a></li><li class="tocline"><a class="tocxref" href="#x2-2-etsi"><bdi class="secno">2.2 </bdi>2.2 ETSI</a></li><li class="tocline"><a class="tocxref" href="#x2-3-3gpp"><bdi class="secno">2.3 </bdi>2.3 3GPP</a></li><li class="tocline"><a class="tocxref" href="#x2-4-itu"><bdi class="secno">2.4 </bdi>2.4 ITU</a></li><li class="tocline"><a class="tocxref" href="#x2-5-iso"><bdi class="secno">2.5 </bdi>2.5 ISO</a></li><li class="tocline"><a class="tocxref" href="#x2-6-iec"><bdi class="secno">2.6 </bdi>2.6 IEC</a></li><li class="tocline"><a class="tocxref" href="#x2-7-ietf"><bdi class="secno">2.7 </bdi>2.7 IETF</a></li><li class="tocline"><a class="tocxref" href="#x2-8-ieee-sa"><bdi class="secno">2.8 </bdi>2.8 IEEE-SA</a></li><li class="tocline"><a class="tocxref" href="#x2-9-w3c"><bdi class="secno">2.9 </bdi>2.9 W3C</a></li><li class="tocline"><a class="tocxref" href="#x2-10-oasis"><bdi class="secno">2.10 </bdi>2.10 OASIS</a></li></ol></li><li class="tocline"><a class="tocxref" href="#x3-resultaten-kwantitatieve-analyse-per-sdo"><bdi class="secno">3. </bdi>3. Resultaten kwantitatieve analyse per SDO</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#iso"><bdi class="secno">3.1 </bdi>ISO</a></li><li class="tocline"><a class="tocxref" href="#x3-2-iec"><bdi class="secno">3.2 </bdi>3.2 IEC</a></li><li class="tocline"><a class="tocxref" href="#x3-3-etsi"><bdi class="secno">3.3 </bdi>3.3 ETSI</a></li><li class="tocline"><a class="tocxref" href="#x3-4-3gpp"><bdi class="secno">3.4 </bdi>3.4 3GPP</a></li><li class="tocline"><a class="tocxref" href="#x3-5-itu"><bdi class="secno">3.5 </bdi>3.5 ITU</a></li><li class="tocline"><a class="tocxref" href="#x3-6-ietf"><bdi class="secno">3.6 </bdi>3.6 IETF</a></li><li class="tocline"><a class="tocxref" href="#x3-7-w3c"><bdi class="secno">3.7 </bdi>3.7 W3C</a></li><li class="tocline"><a class="tocxref" href="#x3-8-oasis"><bdi class="secno">3.8 </bdi>3.8 OASIS</a></li></ol></li><li class="tocline"><a class="tocxref" href="#index"><bdi class="secno">A. </bdi>Index</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#index-defined-here"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</a></li><li class="tocline"><a class="tocxref" href="#index-defined-elsewhere"><bdi class="secno">A.2 </bdi>Begrippen gedefinieerd door verwijzing</a></li></ol></li></ol></nav>
+    <section id="x1-verantwoording-kwantitatieve-methoden-inclusief-lijst-van-nederlandse-organisaties"><div class="header-wrapper"><h2 id="x1-1-verantwoording-kwantitatieve-methoden-inclusief-lijst-van-nederlandse-organisaties"><bdi class="secno">1. </bdi>1. Verantwoording kwantitatieve methoden (inclusief lijst van Nederlandse organisaties)</h2><a class="self-link" href="#x1-verantwoording-kwantitatieve-methoden-inclusief-lijst-van-nederlandse-organisaties" aria-label="Permalink for Section 1."></a></div>
+<section id="x1-1-doelstelling"><div class="header-wrapper"><h3 id="x1-1-1-1-doelstelling"><bdi class="secno">1.1 </bdi>1.1. Doelstelling</h3><a class="self-link" href="#x1-1-doelstelling" aria-label="Permalink for Section 1.1"></a></div>
+<p>De kwantitatieve analyse beoogt in kaart te brengen in welke mate Nederlandse organisaties vertegenwoordigd zijn in standaardisatietrajecten bij de elf genoemde standaardisatie-organisaties.</p>
+</section><section id="x1-2-operationalisatie"><div class="header-wrapper"><h3 id="x1-2-1-2-operationalisatie"><bdi class="secno">1.2 </bdi>1.2 Operationalisatie</h3><a class="self-link" href="#x1-2-operationalisatie" aria-label="Permalink for Section 1.2"></a></div>
+<p>Voor de doeleinden van dit onderzoek wordt <strong>participatie</strong> beschouwd als deelname aan de vormgeving van internationale normen of standaarden. Hier maken wij onderscheid tussen drie verschillende eigenschappen van participatie: <em>representatievorm</em>, <em>participatieobject</em> en <em>participatiemethode</em>. Hieronder zetten wij deze drie uiteen.</p>
+<p>Representatievorm</p>
+<p>De representatievorm is de wijze waarin een belang vertegenwoordigd wordt bij een internationale standaardisatie-organisatie. In dit onderzoek staan Nederlandse belangen voorop; d.w.z. de belangen van Nederlandse organisaties. Afhankelijk van de structuur van de SDO kunnen deze verschillen tussen SDO’s.</p>
+<p>We onderscheiden de volgende representatievormen:</p>
+<ol>
+<li><p><strong>Landelijke afvaardiging</strong>. Bij een aantal SDO’s is sprake van nationale vertegenwoordiging in plaats van directe vertegenwoordiging door organisaties. Een land is lid van het standaardisatie-orgaan en wordt geacht als land inbreng te hebben en te stemmen. In Nederland wordt dat belang opgesteld binnen NEN. NEN heeft normcommissies, die gespiegeld zijn aan de internationale werkgroepen. Nederlandse organisaties kunnen dus als NEN-lid aansluiten bij die normcommissies en als afgevaardigde deelnemen aan het opstellen van standaarden bij de SDO’s</p>
+</li>
+<li><p><strong>Individuele vertegenwoordiging</strong>. Bij enkele SDO’s kunnen individuen lid worden, al dan niet namens een organisatie. Deze affiliatie is dus optioneel. In de scope van dit onderzoek zijn zowel directe individuele vertegenwoordiging van Nederlanders als Nederlandse affiliatie relevant. Dat eerste valt echter niet te bepalen van individuen. Ook hier wordt dus primair gekeken naar de affiliatie die wordt opgegeven.</p>
+</li>
+<li><p><strong>Organisatievertegenwoordiging</strong>. Vaak kunnen organisaties lid worden van SDO’s. In dat geval kunnen zij elk individu vragen hun belang te vertegenwoordigen bij de commissies van de SDO’s.</p>
+</li>
+</ol>
+<p>Onderstaande <strong>Tabel 1</strong> laat zien welke representatievorm de onderzochte SDO’s hanteren.</p>
+<p>Tabel 1. Representatievorm per onderzochte SDO. Met een “x” is aangegeven of een representatievorm bij een SDO aanwezig is.</p>
+<table>
+<thead>
+<tr>
+<th>SDO</th>
+<th>Landelijke afvaardiging</th>
+<th>Individuele vertegenwoordiging</th>
+<th>Organisatie-vertegenwoordiging</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>3GPP</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>CEN</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CENELEC</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ETSI</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>IEC</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IEEE-SA</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>IETF</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ITU</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>OASIS</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>W3C</td>
+<td></td>
+<td></td>
+<td>X</td>
+</tr>
+<tr>
+<td>NB: Er zijn in sommige gevallen afwijkingen mogelijk, de norm is hier weergegeven. Zo kan er bijvoorbeeld wel sprake bij van vertegenwoordiging als expert bij CEN, CENELEC, ISO en IEC.</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>Toegepast op Nederlandse participatie staat voorop dat de <strong>organisatie Nederlands</strong> is. Via landelijke afvaardiging is dat gegarandeerd, via de andere twee vormen is dat waar de kern van de kwantitatieve analyse ligt. In onderstaande box lichten we de categorieën van Nederlands belang toe.</p>
+<p><em><strong>Definitie van ‘Nederlandse’ organisaties</strong></em></p>
+<p>Op de vraag of een organisatie ‘Nederlands’ is, zijn meerdere antwoorden mogelijk. Gelet op het doel van het onderzoek gaat het om organisaties waarvan de participatie in standaardisatie (uiteindelijk) een bijdrage levert aan de Nederlandse economie. In dat kader onderscheiden we de volgende <em>gradaties</em> van het ‘Nederlands zijn’ van organisaties:</p>
+<ol>
+<li><p>Nederlandse organisaties (ingeschreven bij de Kamer van Koophandel) zonder (noemenswaardige) internationale vestigingen, zoals bijvoorbeeld TNO.</p>
+</li>
+<li><p>Nederlandse organisaties (hoofdkantoor in Nederland) met internationale vestigingen, bijvoorbeeld Philips (hoofdkantoor in Amsterdam).</p>
+</li>
+<li><p>Nederlandse vestigingen van buitenlandse organisaties (hoofdkantoor niet in Nederland), bijvoorbeeld Ericsson (vestiging in Rijen, hoofdkantoor in Zweden).</p>
+</li>
+<li><p>Nederlandse ‘brievenbusholdings’ van buitenlandse organisaties (organisatie is formeel gevestigd in Nederland, maar alleen om administratieve/fiscale reden; het merendeel van de activiteiten vindt in het buitenland plaats). Een voorbeeld hiervan is (het voormalige) Alcatel.</p>
+</li>
+<li><p>Nederlandse overheidsorganisaties/overheidsonderdelen. Hierbij onderscheiden we:</p>
+<ol>
+<li><p>Formele vertegenwoordigers van de Nederlandse overheid (in deze dataset slechts EZ, bij andere SDO’s kunnen dit andere organisaties zijn)</p>
+</li>
+<li><p>Organisatie-onderdelen van de Nederlandse overheid, waaronder van de Rijksoverheid, provincies, gemeenten, waterschappen, ZBOs en overheidsstichtingen, zoals Geonovum.</p>
+</li>
+</ol>
+</li>
+<li><p>Nederlanders (personen met Nederlandse nationaliteit) die op persoonlijke titel deelnemen in standaardisatie-organisaties, bijvoorbeeld individuele deelnemers aan IETF.</p>
+</li>
+</ol>
+<p><strong>Categorie 4</strong> is in overleg door de opdrachtgever in dit onderzoek buiten de afbakening van het onderzoek geplaatst.</p>
+<p>Participatieobject</p>
+<p>Participatie kan binnen een SDO op verschillende niveaus. Wij hanteren drie verschillende objecten, met een beperkt onderscheid: Beleidscommissies, technische commissies, werkgroepen en standaarden. Hierin zit een hiërarchische structuur:</p>
+<ol>
+<li><p><strong>Beleidscommissies</strong> gaan over de organisatie en strategie van de SDO.</p>
+</li>
+<li><p><strong>Technische commissies</strong> gaan over een standaard en voeren daar de regie.</p>
+</li>
+<li><p><strong>Werkgroepen</strong> diepen onderdelen van het programma van een technische commissie uit.</p>
+</li>
+</ol>
+<p>Tussen de SDO’s bestaan grote verschillen in organisatiestructuur. Bovenstaande is gesimplificeerd om de SDO’s vergelijkbaar te maken.</p>
+<p>Participatiemethode</p>
+<p>Participeren kan op verschillende manieren. Wij onderscheiden er hier vijf, hoewel deze onderscheiden niet allemaal (c.q. voor alle SDO’s) gemaakt kunnen worden, omdat de stemmingen niet beschikbaar zijn in dit onderzoek. Deze methoden zijn:</p>
+<ol>
+<li><p><strong>Lidmaatschap</strong> van een commissie of werkgroep.</p>
+</li>
+<li><p>Vervulling van <strong>formele rollen</strong> binnen een commissie of werkgroep. Bijvoorbeeld een voorzitterschap, secretariaat of een editorrol bij een standaard.</p>
+</li>
+<li><p><strong>Deelname aan overleggen</strong> van een commissie of werkgroep.</p>
+</li>
+<li><p>Indienen van <strong>technische contributies</strong> voor een overleg van een werkgroep.</p>
+</li>
+<li><p><strong>Stemmen</strong> over de inhoud van standaarden of beleid (zeldzaam, consensus heeft de voorkeur).</p>
+</li>
+</ol>
+<p>Volledig participatiemodel</p>
+<p>Samen maken participatieobject, participatievorm en representatievorm een participatie. Dit is in figuur 1 volledig weergegeven voor individuele vertegenwoordiging. Langs dit model kan elke participatie worden geformuleerd volgens de volgende algemene vorm:</p>
+<ul>
+<li><p><em>Persoon X</em></p>
+</li>
+<li><p><em>Optioneel: Namens organisatie Y</em></p>
+</li>
+<li><p><em>Is lid van/vervult formele rol/ neemt deel aan overleg/dient contributie in/stemt</em></p>
+</li>
+<li><p><em>Bij werkgroep/commissie Z</em></p>
+</li>
+<li><p><em>Optioneel: Als [rol]</em></p>
+</li>
+<li><p><em>Optioneel: Op datum [dd-mm-jjjj]</em></p>
+</li>
+</ul>
+<p>De gegevens die in dit onderzoek zijn verzameld, zijn in dit format samengevoegd voor een vergelijkbare structuur tussen SDO’s.</p>
+<p>Figuur 1 hieronder toont het participatiemodel voor individuele vertegenwoordiging, met de persoon en organisatie, die met een participatievorm (lidmaatschap, formele rol, deelname aan overleg, technische contributie of stemming) op één van de drie niveaus (beleidscommissie, technische commissie of werkgroep) binnen SDO's participeren.</p>
+<p>Figuur 1. Voorbeeld van een volledig uitgewerkt participatiemodel voor individuele vertegenwoordiging</p>
+<img src="./media/image1.emf" style="width:5.78681in;height:2.2887in" alt="Samenvatting participatiemodel, met de persoon en organisatie aan de rechterkant, die met een participatievorm op één van de drie niveaus binnen SDO's participeren. Hierbij volgen de drie niveaus en de participatievormen de hierboven beschreven categorieën. ">
+
+</section><section id="x1-3-analysestappen"><div class="header-wrapper"><h3 id="x1-3-1-3-analysestappen"><bdi class="secno">1.3 </bdi>1.3 Analysestappen</h3><a class="self-link" href="#x1-3-analysestappen" aria-label="Permalink for Section 1.3"></a></div>
+<p>Stap 1. Toegang tot bronnen verkrijgen</p>
+<p>Om deze participaties in kaart te brengen verzamelen wij beschikbare documentatie over de werkgroepen en deelnemers. Hiertoe hebben wij een aantal gegevensbronnen:</p>
+<ul>
+<li><p>Gegevens van NEN en gesprekken met NEN.</p>
+</li>
+<li><p>Openbare gegevens van de SDO’s. Dit betreft gegevens die zij via een website of API beschikbaar maken.</p>
+</li>
+<li><p>Voor ETSI en 3GPP heeft het Ministerie van EZ onderzoekers toegang gegeven om gegevens uit het portal te halen. Deze gegevens zijn niet voor andere doeleinden gebruikt dan de kwantitatieve analyse. Voor ITU is ook toegang verleend, maar daar was geen toegang zonder lidmaatschap van werkgroepen, wat te ver ging voor dit onderzoek.</p>
+</li>
+<li><p>Voor IEC en ISO heeft NEN gegevens opgevraagd.</p>
+</li>
+</ul>
+<p>De gegevens die dit betreft wisselen per SDO, mede afhankelijk van de structuur. In alle gevallen is het onderzoek beperkt tot de gegevens die beschikbaar zijn. Waar mogelijk is gezocht naar toegang (via NEN en EZ). In de hoofdlijn is de procedure over alle SDO’s identiek: Uit de bronnen halen wij documenten op (doorgaans webpagina’s, in sommige gevallen API-responses of bestanden).</p>
+<p>In deze documenten, waarvan het bestaan duidt op een bepaalde activiteit binnen een standaardisatieproces, zijn veelal namen van personen en organisaties te vinden. In sommige gevallen is hierbij een aanduiding van een filiaal en/of land te vinden.</p>
+<p>Op basis van deze documenten kan een telling worden uitgevoerd van participatie aan standaardisatie, die kan worden uitgesplitst op eigenschappen van de betrokkenen. Hierbij speelt echter een aantal randvoorwaarden:</p>
+<ol>
+<li><p>De opgehaalde documenten moeten een <strong>volledig</strong> of anders representatief beeld geven van de standaardisatie-activiteiten;</p>
+</li>
+<li><p>De informatie over participatie/deelname kan herleid worden naar een organisatie (bedrijf)</p>
+</li>
+<li><p>De namen van personen en organisaties moeten <strong>consistent</strong> zijn, of ontdubbeld kunnen worden.</p>
+</li>
+</ol>
+<p>In dit onderzoek ligt de focus op elf SDO’s, elk met hun eigen werkwijze en bijbehorende formats en procedures rondom het publiceren van de bovengenoemde informatie. De uitdaging binnen dit onderzoek is dan ook (1) het omgaan met deze variatie en (2) het combineren van de resultaten tot een consistente telling. Figuur 2 geeft een schematische weergave van telling van participatie: Startpunt is een document. Daaruit worden zowel activiteiten als personen/organisaties gehaald. Samengevoegd leidt dit tot het eerder beschreven participatiemodel en kunnen daar (na ontdubbelen) tellingen van participatie mee worden gemaakt.</p>
+<p>Figuur 2. Schematisch overzicht opzet meting</p>
+<img src="./media/image2.jpeg" style="width:3.71528in;height:3.54025in" alt="Schematische weergave telling van participatie: Startpunt is document, daaruit komen zowel activiteiten als personen/organisaties die samen tot een telling komen.">
+
+<p>Stap 2. Gegevensverzameling (per SDO)</p>
+<p>De gegevensverzameling is per SDO geoptimaliseerd op basis van de beschikbare gegevens voor die SDO. Paragraaf <strong>Fout! Verwijzingsbron niet gevonden.</strong> geeft een overzicht van de beschikbare gegevens per SDO. De gegevens worden samengebracht in een database, van waaruit een analyseversie wordt opgesteld volgens de operationalisatie zoals beschreven in <strong>Fout! Verwijzingsbron niet gevonden.</strong>.</p>
+<p>De gegevensverzameling vindt geautomatiseerd plaats en alleen van gegevens die zonder verdere handelingen <strong>gestructureerd</strong> beschikbaar waren. Hiermee vallen bijvoorbeeld commissies en werkgroepen weg die in een eigen format websites hebben en documenten die niet gestandaardiseerd zijn opgesteld. Gegevens waarvoor het nodig was om als individu lid te worden van een werkgroep zijn ook niet verzameld. De opdrachtgever heeft ook gegevens over participatie verstrekt.</p>
+<p>Waar het niet mogelijk was om aanwezigheid bij vergaderingen te verzamelen is gekeken of dit opgevangen kon worden met het verzamelen van technische contributies. Door technische contributies kunnen leden een inhoudelijke bijdrage leveren aan (de agenda van) een vergadering van een werkgroep, echter is de selectie hiermee beperkt tot de organisaties waarvan wij technische contributies kunnen verzamelen.</p>
+<p>In het geval van <strong>nationale vertegenwoordiging</strong> (IEC, ISO en CEN-CENELEC) is beperkt openbaar beschikbaar welk individu waarbij zit. Voor IEC en ISO heeft NEN gegevens voor dit onderzoek gedeeld met de onderzoekers. NEN kan om AVG-technische redenen niet alle lidmaatschappen van individuele experts delen. De rollen zijn op landniveau gedefinieerd. Hier gaan echter wel Nederlandse vertegenwoordigingen naartoe via NEN. Waar mogelijk zijn de lidmaatschappen en formele rollen (secretariaten en voorzitterschappen) wel verzameld, maar deze zijn op landsniveau, niet op persoonsniveau of organisatieniveau.</p>
+<p>Bij het verzamelen van participaties betreft het personen die participeren en daarmee zijn het dus persoonsgegevens. Deze zijn verzameld, maar zijn slechts beperkt gebruikt in het onderzoek. In overeenstemming met afspraken met de opdrachtgever en regelgeving op het gebied van persoonsgegevens zijn analyses niet op persoonsniveau gedaan.</p>
+<p>Stap 3. Gegevensverrijking</p>
+<p>Na verzameling worden organisaties gecodeerd op of er sprake is van een Nederlands belang of niet. Hiervoor is gebruik gemaakt van een lijst van 58 organisaties met organisatiecodering. Participaties namens organisaties die op deze lijst stonden worden in de database automatisch gemarkeerd als Nederlands belang.</p>
+<p>Deze lijst is handmatig gevalideerd na samenstelling uit de volgende bronnen:</p>
+<ol>
+<li><p>Leden van de normcommissies van NEN zijn aangewezen als mogelijk Nederlands.</p>
+</li>
+<li><p>Organisaties met een Nederlandse organisatievorm (BV, NV, VOF) zijn aangemerkt als mogelijk Nederlands.</p>
+</li>
+<li><p>Organisaties waarvan de deelnemers een emailadres hadden met een Nederlands domein (.nl) zijn aangemerkt als mogelijk Nederlands.</p>
+</li>
+</ol>
+</section><section id="x1-4-beschikbaarheid-van-gegevens"><div class="header-wrapper"><h3 id="x1-4-1-4-beschikbaarheid-van-gegevens"><bdi class="secno">1.4 </bdi>1.4 Beschikbaarheid van gegevens</h3><a class="self-link" href="#x1-4-beschikbaarheid-van-gegevens" aria-label="Permalink for Section 1.4"></a></div>
+<p>De beschikbaarheid van gegevens wisselde sterk tussen SDO’s. Hierachter liggen twee voorname redenen: Door de organisatievorm van SDO’s verschillen de beschikbare gegevens en door toegangsbarrières was het in deze studie niet haalbaar om alle gegevens te verzamelen. Tabel laat voor de gezochte participatievormen zien bij welke SDO langs welke route het mogelijk was om de gegevens op te halen. CEN en CENELEC zijn samengevoegd omdat zij ook gezamenlijk een platform hebben. Hieronder lichten wij de redenen kort toe.</p>
+<p>SDO-vorm: Nationale vertegenwoordiging versus organisatievertegenwoordiging</p>
+<p>In de SDO’s met nationale vertegenwoordiging is sprake van vertegenwoordiging namens <em>lidstaten</em>. De lidstaten zijn lid en voeren personen op om het land te vertegenwoordigen. Hier is sprake van bij CEN-CENELEC, ISO en IEC. Bij ETSI is hier sprake van wanneer er gestemd wordt over geharmoniseerde standaarden.</p>
+<p>De afvaardiging die namens Nederland naar deze SDO’s gaat, is echter niet noodzakelijk een overheidsvertegenwoordiger. NEN heeft parallelle normcommissies waarin de Nederlandse deelnemers hun belangen afstemmen. Gezamenlijk wordt een standpunt bepaald. Omdat het een nationale afvaardiging betreft, is het dan dus niet direct namens een organisatie – hoewel de organisatie wel invloed heeft door naar voren geschoven te worden. Voor bijdrage aan het opstellen van standaarden kunnen experts op persoonlijke titel op internationaal niveau deelnemen. Dit kunnen ook meerdere experts zijn.</p>
+<p>Omdat bij deze SDO’s geen sprake is van een officiële organisatievertegenwoordiging en worden zij dus ook niet als zodanig verzameld. NEN heeft wel gegevens beschikbaar gesteld over de afvaardigingen naar ISO en IEC. Hierbij weten wij niet welke organisatie de deelnemers vertegenwoordigen.</p>
+<p>Barrières voor toegang</p>
+<p>Niet alle gewenste te verzamelen gegevens zijn openbaar toegankelijk, noch toegankelijk gebleken voor de onderzoekers. In sommige gevallen maken standaardisatie-organisaties (delen van) gegevens alleen beschikbaar aan deelnemers van werkgroepen. Dit betekende in het geval van IEEE dat het onmogelijk was om participaties te verzamelen.</p>
+<p>Merk op dat het feit dat gegevens ten tijde van het onderzoek beschikbaar waren, niet betekent dat deze beschikbaar blijven. Hier was tijdens het onderzoek al sprake van bij ITU. In het vooronderzoek bleek het mogelijk om personen en organisaties te achterhalen die lid zijn van een werkgroep. Deze gegevens zijn later in het ledenportaal geplaatst en alleen toegankelijk gemaakt voor leden van werkgroepen.</p>
+<p>Tabel 2. Overzicht haalbaarheid gegevensverzameling per SDO per gegevenstype. Waar ingevuld is een methode gevonden om bij de gegevens te komen. Waar geel bleek dat niet haalbaar, overige gegevens zijn verzameld. Legenda: OW = openbare website, LP = ledenportaal, API = application programmable interface. Overige zijn beschreven.</p>
+<table>
+<colgroup>
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Organisatie</th>
+<th>Werk-groepen</th>
+<th>Leden per werkgroep</th>
+<th>Bestuurders per werkgroep</th>
+<th>Affiliatie lid/bestuurder</th>
+<th>Meetings per werkgroep</th>
+<th>Datum per meeting</th>
+<th>Aanwezigen per meeting</th>
+<th>Technische contributies per meeting</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CEN-<br>
+CENELEC</td>
+<td>OW</td>
+<td></td>
+<td>OW</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ISO</td>
+<td>OW</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>IEC</td>
+<td>OW</td>
+<td>OW</td>
+<td>OW</td>
+<td></td>
+<td>OW</td>
+<td>OW</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ETSI</td>
+<td>OW</td>
+<td>LP</td>
+<td>LP</td>
+<td>LP</td>
+<td>LP</td>
+<td>LP</td>
+<td>LP</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3GPP</td>
+<td>OW of LP</td>
+<td>LP</td>
+<td>OW of LP</td>
+<td></td>
+<td>LP</td>
+<td>LP</td>
+<td>LP</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ITU</td>
+<td>OW</td>
+<td>Lidmaatschap werkgroep vereist</td>
+<td>OW</td>
+<td>Lidmaatschap werkgroep vereist</td>
+<td>Lidmaatschap werkgroep vereist</td>
+<td>Lidmaatschap werkgroep vereist</td>
+<td>Lidmaatschap werkgroep vereist</td>
+<td>OW</td>
+</tr>
+<tr class="odd">
+<td>IETF</td>
+<td>API</td>
+<td>API</td>
+<td>API</td>
+<td>Bluenotes (.txt)</td>
+<td>API</td>
+<td>API</td>
+<td>API</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>IEEE</td>
+<td>OW</td>
+<td></td>
+<td>LP</td>
+<td>LP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>W3C</td>
+<td>API</td>
+<td>API</td>
+<td>API</td>
+<td>API</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>OASIS</td>
+<td>OW</td>
+<td>OW</td>
+<td>OW</td>
+<td>OW</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></section></section>
+    <section id="x2-overzicht-gegevensverzameling-per-sdo"><div class="header-wrapper"><h2 id="x2-2-overzicht-gegevensverzameling-per-sdo"><bdi class="secno">2. </bdi>2. Overzicht gegevensverzameling per SDO</h2><a class="self-link" href="#x2-overzicht-gegevensverzameling-per-sdo" aria-label="Permalink for Section 2."></a></div>
+<section id="x2-1-cen-en-cenelec"><div class="header-wrapper"><h3 id="x2-1-2-1-cen-en-cenelec"><bdi class="secno">2.1 </bdi>2.1 CEN en CENELEC</h3><a class="self-link" href="#x2-1-cen-en-cenelec" aria-label="Permalink for Section 2.1"></a></div>
+<p>CEN en CENELEC (<em>Comité Européen de Normalisation - Comité Européen de Normalisation Élecrotechnique</em>) heeft <strong>nationale vertegenwoordigingen</strong>, wat betekent dat namens Nederland de NEN lid is. Er worden experts afgevaardigd vanuit de NEN-normcommissies om die Nederlandse positie te vertegenwoordigen. Zij kunnen ook individueel deelnemen aan het opstellen van standaarden. Voor gegevens over individuele participaties zijn wij daarom afhankelijk van NEN. Het is niet mogelijk gebleken om voor afronding van deze studie die gegevens op te halen.</p>
+</section><section id="x2-2-etsi"><div class="header-wrapper"><h3 id="x2-2-2-2-etsi"><bdi class="secno">2.2 </bdi>2.2 ETSI</h3><a class="self-link" href="#x2-2-etsi" aria-label="Permalink for Section 2.2"></a></div>
+<p>ETSI (<em>European Telecommunications Standards Institute</em>) heeft een gemengde ledenstructuur. Van oorsprong kunnen organisaties lid worden van ETSI. Deze leden hebben dan stemrecht. Echter, onder druk van de EC moet voor geharmoniseerde standaarden gestemd worden door lidstaten. Daarom heeft ETSI voor geharmoniseerde standaarden nu een andere stemprocedure. Hierbij moet als kanttekening worden geplaatst dat stemmen niet vaak voorkomt. Uit onderzoek blijkt dat ETSI doorgaans met een consensusmodel beslist, bijvoorbeeld in 95,4% van de gevallen in het General Assembly. Het standaardisatieproces gaat echter nog wel zoals voorheen, door werkgroepen met de bestaande leden. Daarom richten wij ons voor deelname aan standaardisatie binnen ETSI op de organisatielidmaatschappen.</p>
+<p>Nederlandse ETSI-leden zijn verenigd in NELO (Nederlands ETSI-Leden Overleg). Positiebepaling voor geharmoniseerde standaarden gaat via NEPE (Nederlandse ETSI-EN Public Enquiry).</p>
+<p>Om gegevens van ETSI te achterhalen hebben wij van het ministerie van Economische Zaken onder voorwaarden toegang gekregen tot het ledenportaal.</p>
+<p>Voor ETSI hebben wij de volgende gegevens kunnen ophalen:</p>
+<ul>
+<li><p>Per orgaan binnen ETSI (bijv. WG/TC):</p>
+<ul>
+<li><p>Afkorting</p>
+</li>
+<li><p>Naam</p>
+</li>
+<li><p>Leden met rol waar van toepassing</p>
+</li>
+<li><p>Meetings van het orgaan</p>
+</li>
+</ul>
+</li>
+<li><p>Per lid:</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>Organisatie</p>
+</li>
+</ul>
+</li>
+<li><p>Per meeting van een orgaan:</p>
+<ul>
+<li><p>Datum</p>
+</li>
+<li><p>Aanwezigen</p>
+</li>
+<li><p>Evt. formele rol van aanwezige</p>
+</li>
+</ul>
+</li>
+<li><p>Per organisatie:</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>Landcode</p>
+</li>
+</ul>
+</li>
+</ul>
+</section><section id="x2-3-3gpp"><div class="header-wrapper"><h3 id="x2-3-2-3-3gpp"><bdi class="secno">2.3 </bdi>2.3 3GPP</h3><a class="self-link" href="#x2-3-3gpp" aria-label="Permalink for Section 2.3"></a></div>
+<p>3GPP (<em>3rd Generation Partnership Project</em>) heeft een structuur met zeven <em>Organisational Partners</em>. Deze zeven zijn regionale SDO’s op het gebied van telecom, ETSI namens Europa. De verdere partners zijn de Japanse <em>Association of Radio Industries and Business</em> en het <em>Telecommunication Technology Committee,</em> de Amerikaanse <em>Alliance for Telecommunications Industry Solutions</em>, de <em>China Communications Standards Association,</em> de Indiase <em>Telecommunications Standards Development Society</em> en de Zuid-Koreaanse <em>Telecommunictions Technology Association</em>. Leden van deze SDO’s kunnen zich ook aanmelden bij 3GPP. De vertegenwoordigers worden doorgaans bij naam genoemd, met organisatie ook beschikbaar.</p>
+<p>Voor 3GPP hebben wij de volgende gegevens kunnen ophalen:</p>
+<ul>
+<li><p>Per orgaan binnen 3GPP (bijv. WG/TC):</p>
+<ul>
+<li><p>Code</p>
+</li>
+<li><p>Naam</p>
+</li>
+<li><p>Beschrijving</p>
+</li>
+<li><p>Leden met rol waar van toepassing</p>
+</li>
+<li><p>Meetings van het orgaan</p>
+</li>
+</ul>
+</li>
+<li><p>Per lid:</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>Organisatie</p>
+</li>
+</ul>
+</li>
+<li><p>Per meeting van een orgaan:</p>
+<ul>
+<li><p>Datum</p>
+</li>
+<li><p>Aanwezigen</p>
+</li>
+<li><p>Evt. formele rol van aanwezige (bijv: DELEGATE of CHAIR)</p>
+</li>
+</ul>
+</li>
+<li><p>Per organisatie:</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>Landcode (onvolledig)</p>
+</li>
+</ul>
+</li>
+</ul>
+</section><section id="x2-4-itu"><div class="header-wrapper"><h3 id="x2-4-2-4-itu"><bdi class="secno">2.4 </bdi>2.4 ITU</h3><a class="self-link" href="#x2-4-itu" aria-label="Permalink for Section 2.4"></a></div>
+<p>Binnen ITU (<em>International Telecommuncation Union</em>) ligt onze focus op studiegroepen van de ITU-T de tak van ITU waarbinnen gewerkt wordt aan standaarden. Binnen ITU zijn organisaties, individuen én landen lid. Zij kunnen dus ook een vertegenwoordiging sturen, rol vervullen of <em>technical contributions</em> indienen.geeft een illustratie van <em>technical contributions</em>. Ook bij ITU hebben wij via het ministerie van Economische Zaken toegang gekregen tot de gegevens.</p>
+<img src="./media/image4.png" style="width:8.67315in;height:4.02797in" alt="Een tabel met technische contributies met &quot;Titel&quot; en &quot;Bron&quot;, waar de bron de organisatie is die de contributie indiende.">
+
+<blockquote>
+<p>Figuur 1. Technical contributions ITU. Bron: <a href="https://www.itu.int/md/T22-SG09-231114-C/en">[itu.int]</a></p>
+</blockquote>
+<p>Voor ITU bleek het onrealistisch om gegevens over de participatie te achterhalen, met uitzondering van formele rollen en <em>technical contributions</em>. Overige gegevens over participatie bleken slechts toegankelijk voor leden van de individuele werkgroepen.</p>
+<p>Dit levert de volgende gegevens op:</p>
+<ul>
+<li><p>Per orgaan binnen ITU (bijv. WG/TC):</p>
+<ul>
+<li><p>Code</p>
+</li>
+<li><p>Naam</p>
+</li>
+<li><p>Beschrijving</p>
+</li>
+<li><p>Leden met formele rol</p>
+</li>
+<li><p>Technische contributies</p>
+</li>
+</ul>
+</li>
+<li><p>Per lid met formele rol:</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>Organisatie</p>
+</li>
+</ul>
+</li>
+<li><p>Per technische contributie:</p>
+<ul>
+<li><p>Titel</p>
+</li>
+<li><p>Ondertekenende organisaties</p>
+</li>
+</ul>
+</li>
+<li><p>Per organisatie:</p>
+<ul>
+<li>Naam</li>
+</ul>
+</li>
+</ul>
+</section><section id="x2-5-iso"><div class="header-wrapper"><h3 id="x2-5-2-5-iso"><bdi class="secno">2.5 </bdi>2.5 ISO</h3><a class="self-link" href="#x2-5-iso" aria-label="Permalink for Section 2.5"></a></div>
+<p>Bij ISO zijn nationale standaardisatie-organisaties lid, namens Nederland NEN. Andere organisaties (voornamelijk SDO’s) kunnen wel voorstellen indienen. Naar buiten toe worden de lidmaatschappen van de technische commissies per land weergegeven. Er worden wel experts afgevaardigd vanuit de NEN normcommissies om die Nederlandse positie te vertegenwoordigen. NEN heeft voor dit onderzoek gegevens opgevraagd bij ISO over de Nederlandse experts die deelnemen aan werkgroepvergaderingen. Dit bevat voor de jaren 2019 tot en met 2024 de volgende gegevens:</p>
+<ul>
+<li><p>TC/Werkgroep code</p>
+</li>
+<li><p>TC/Werkgroep naam</p>
+</li>
+<li><p>Meeting id</p>
+</li>
+<li><p>Meeting type</p>
+</li>
+<li><p>Startdatum</p>
+</li>
+<li><p>Einddatum</p>
+</li>
+<li><p>Aantal deelnemers namens Nederland</p>
+</li>
+</ul>
+</section><section id="x2-6-iec"><div class="header-wrapper"><h3 id="x2-6-2-6-iec"><bdi class="secno">2.6 </bdi>2.6 IEC</h3><a class="self-link" href="#x2-6-iec" aria-label="Permalink for Section 2.6"></a></div>
+<p>Bij IEC kan per land één <em>National Committee</em> lid worden. Namens Nederland is dat het Netherlands Electrotechnical Committee (NEC). Binnen commissies kan net als bij ISO een rol als deelnemend lid worden gekozen of een rol als observer. Nederland is volwaardig lid, maar een aantal landen is ook affiliate. Er worden wel experts afgevaardigd vanuit NEN normcommissies om die Nederlandse positie te vertegenwoordigen. Hiervoor heeft NEN voor dit onderzoek gegevens opgevraagd bij IEC over de Nederlandse experts die deelnemen aan werkgroepvergaderingen. Dit bevat voor de jaren 2019 tot en met 2024 de volgende gegevens:</p>
+<ul>
+<li><p>Naam participant</p>
+</li>
+<li><p>Meeting</p>
+</li>
+<li><p>Meeting type</p>
+</li>
+<li><p>Beschrijving</p>
+</li>
+<li><p>Rol bij de meeting</p>
+</li>
+<li><p>Main meeting (congres waar meeting deel van uitmaakt)</p>
+</li>
+<li><p>Locatie</p>
+</li>
+<li><p>Wijze van participatie</p>
+</li>
+<li><p>Goedkeuring participatie</p>
+</li>
+<li><p>Registratie (Submitted/Not submitted)</p>
+</li>
+<li><p>Startdatum</p>
+</li>
+<li><p>Einddatum</p>
+</li>
+</ul>
+</section><section id="x2-7-ietf"><div class="header-wrapper"><h3 id="x2-7-2-7-ietf"><bdi class="secno">2.7 </bdi>2.7 IETF</h3><a class="self-link" href="#x2-7-ietf" aria-label="Permalink for Section 2.7"></a></div>
+<p>IETF heeft geen ledenstructuur. Iedereen kan zich aanmelden voor een werkgroep en wordt verwacht deel te nemen als individu. Deelnemers zijn dan dus niet organisatiegebonden, maar vaak wel afgevaardigde. IETF heeft een datatracker, waar langs een openbare API gegevens kunnen worden opgevraagd. Voor meetings zijn er verder zogeheten <em>bluenotes</em>, waarin aanwezigen met affiliatie staan voor elke meeting.</p>
+<p>Voor IETF zijn de volgende gegevens opgehaald:</p>
+<ul>
+<li><p>Per orgaan binnen IETF (bijv. WG/TC):</p>
+<ul>
+<li><p>Afkorting</p>
+</li>
+<li><p>Naam</p>
+</li>
+<li><p>Beschrijving</p>
+</li>
+<li><p>Type (volgens de hiërarchie van IETF; 23 categorieën)</p>
+</li>
+<li><p>Parentorgaan (de organen zijn in een boomstructuur opgesteld en hangen uiteindelijk allen onder IETF zelf)</p>
+</li>
+<li><p>Leden</p>
+</li>
+<li><p>Meetings van het orgaan</p>
+</li>
+</ul>
+</li>
+<li><p>Per lid:</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>E-mailadres</p>
+</li>
+<li><p>Naam van organisatie, mits via de Datatracker of bluenotes herleidbaar</p>
+</li>
+</ul>
+</li>
+<li><p>Per meeting van een orgaan:</p>
+<ul>
+<li><p>Datum</p>
+</li>
+<li><p>Aanwezigen</p>
+</li>
+</ul>
+</li>
+</ul>
+</section><section id="x2-8-ieee-sa"><div class="header-wrapper"><h3 id="x2-8-2-8-ieee-sa"><bdi class="secno">2.8 </bdi>2.8 IEEE-SA</h3><a class="self-link" href="#x2-8-ieee-sa" aria-label="Permalink for Section 2.8"></a></div>
+<p>IEEE-SA is de standaardisatie-organisatie van IEEE. Lidmaatschap van IEEE-SA kan als individu (bijvoorbeeld als student of als professional) of organisatie. Voor IEEE is het niet gelukt om toegang te krijgen tot gegevens over participatie op het gewenste niveau. Deze waren niet openbaar online beschikbaar en wij hebben hiervoor ook geen medewerking kunnen verkrijgen.</p>
+</section><section id="x2-9-w3c"><div class="header-wrapper"><h3 id="x2-9-2-9-w3c"><bdi class="secno">2.9 </bdi>2.9 W3C</h3><a class="self-link" href="#x2-9-w3c" aria-label="Permalink for Section 2.9"></a></div>
+<p>W3C draait om organisatielidmaatschap. Individuen mogen deelnemen, maar doen dat dan in de rol van “invited expert”. W3C heeft een goed toegankelijke API. Hier kan worden opgehaald wie lid is van werkgroepen, welke formele rol zij hebben en welke affiliaties deze personen hebben. De onderstaande gegevens waren daardoor eenvoudig beschikbaar.</p>
+<ul>
+<li><p>Per orgaan binnen W3C (bijv. WG/TC):</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>Beschrijving</p>
+</li>
+<li><p>Type (optioneel)</p>
+</li>
+<li><p>Leden met formele rol waar relevant</p>
+</li>
+</ul>
+</li>
+<li><p>Per lid:</p>
+<ul>
+<li><p>Naam</p>
+</li>
+<li><p>E-mailadres (mits zelf opgegeven)</p>
+</li>
+<li><p>Land (mits zelf opgegeven)</p>
+</li>
+<li><p>Naam van de organisatie</p>
+</li>
+</ul>
+</li>
+</ul>
+</section><section id="x2-10-oasis"><div class="header-wrapper"><h3 id="x2-10-2-10-oasis"><bdi class="secno">2.10 </bdi>2.10 OASIS</h3><a class="self-link" href="#x2-10-oasis" aria-label="Permalink for Section 2.10"></a></div>
+<p>OASIS heeft organisatielidmaatschap. Medewerkers van leden kunnen deelnemen aan standaardisatieprocessen. Het maakt standaarden via technical committees (TC’s), maar er is ook ruimte voor open projecten. Voor OASIS hebben wij de volgende gegevens kunnen achterhalen:</p>
+<ul>
+<li><p>Per orgaan binnen OASIS (bijv. WG/TC):</p>
+<ul>
+<li><p>Afkorting</p>
+</li>
+<li><p>Naam</p>
+</li>
+<li><p>Leden</p>
+</li>
+</ul>
+</li>
+<li><p>Per lid:</p>
+<ul>
+<li><p>Naam (optioneel)</p>
+</li>
+<li><p>Naam van de organisatie</p>
+</li>
+</ul>
+</li>
+</ul>
+</section></section>
+    <section id="x3-resultaten-kwantitatieve-analyse-per-sdo"><div class="header-wrapper"><h2 id="x3-3-resultaten-kwantitatieve-analyse-per-sdo"><bdi class="secno">3. </bdi>3. Resultaten kwantitatieve analyse per SDO</h2><a class="self-link" href="#x3-resultaten-kwantitatieve-analyse-per-sdo" aria-label="Permalink for Section 3."></a></div>
+<section id="iso"><div class="header-wrapper"><h3 id="x3-1-iso"><bdi class="secno">3.1 </bdi>ISO</h3><a class="self-link" href="#iso" aria-label="Permalink for Section 3.1"></a></div>
+<p>In de online dataverzameling hebben wij in totaal 3973 technical committees, subcommittees en werkgroepen opgehaald. Dit gaat breder dan alleen digitalisering, het laat de volledige breedte van het werkgebied van ISO zien. Bij 768 was openbaar te achterhalen welk land het secretariaat voert. Bij de werkgroepen was dit doorgaans niet mogelijk en NEN voert secretariaten van een deel van deze werkgroepen. Voor zover dit openbaar beschikbaar was kunnen wij stellen dat NEN het secretariaat voert van 9 technical committees en subcommittees. Dit zijn (Tabel ):</p>
+<p>Tabel 3 Werkgroepen in ISO met werkgroepnaam waar NEN het secretariaat van voert</p>
+<table>
+<thead>
+<tr>
+<th>Werkgroep</th>
+<th>Werkgroepnaam</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ISO/TC 138/SC 4</td>
+<td>Plastics pipes and fittings for the supply of gaseous fuels</td>
+</tr>
+<tr>
+<td>ISO/TC 138/SC 5</td>
+<td>General properties of pipes, fittings and valves of plastic materials and their accessories -- Test methods and basic specifications</td>
+</tr>
+<tr>
+<td>ISO/TC 193</td>
+<td>Natural gas</td>
+</tr>
+<tr>
+<td>ISO/TC 193/SC 1</td>
+<td>Analysis of natural gas</td>
+</tr>
+<tr>
+<td>ISO/TC 28</td>
+<td>Petroleum and related products, fuels and lubricants from natural or synthetic sources</td>
+</tr>
+<tr>
+<td>ISO/TC 308</td>
+<td>Chain of custody</td>
+</tr>
+<tr>
+<td>ISO/TC 34/SC 5</td>
+<td>Milk and milk products</td>
+</tr>
+<tr>
+<td>ISO/TC 35</td>
+<td>Paints and varnishes</td>
+</tr>
+<tr>
+<td>ISO/TC 67</td>
+<td>Oil and gas industries including lower carbon energy</td>
+</tr>
+</tbody></table>
+<p>Duitsland voert met 133 TC’s en SC’s de meeste secretariaten, gevolgd door VS (95) en Japan (82). Vergelijkbare landen voeren ongeveer evenveel secretariaten: België (5), Denemarken (5) en Noorwegen (8).</p>
+<p>Tabel 4. Aanwezigheid bij vergaderingen van ISO per jaar in een selectie van ISO-lichamen, beperkt tot het digitale domein</p>
+<table>
+<thead>
+<tr>
+<th>Jaar</th>
+<th>Aanwezigheid</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2019</td>
+<td>89</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>209</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>359</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>321</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>309</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>391</td>
+</tr>
+</tbody></table>
+</section><section id="x3-2-iec"><div class="header-wrapper"><h3 id="x3-2-3-2-iec"><bdi class="secno">3.2 </bdi>3.2 IEC</h3><a class="self-link" href="#x3-2-iec" aria-label="Permalink for Section 3.2"></a></div>
+<p>Nederland is lid van 174 van de 195 technical committees en subcommittees van IEC. Waarover gegevens openbaar waren. Net als bij ISO geldt ook dat deze lidmaatschappen over de volledige breedte van IEC gaan.</p>
+<p>Tabel 5. Aanwezigheid en aantal vervullingen van formele rollen bij IEC per jaar</p>
+<table>
+<thead>
+<tr>
+<th>Jaar</th>
+<th>Aanwezigheid</th>
+<th>Vervulling formele rol</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2019</td>
+<td>397</td>
+<td>38</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>221</td>
+<td>22</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>299</td>
+<td>24</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>337</td>
+<td>34</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>379</td>
+<td>33</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>384</td>
+<td>41</td>
+</tr>
+</tbody></table>
+</section><section id="x3-3-etsi"><div class="header-wrapper"><h3 id="x3-3-3-3-etsi"><bdi class="secno">3.3 </bdi>3.3 ETSI</h3><a class="self-link" href="#x3-3-etsi" aria-label="Permalink for Section 3.3"></a></div>
+<p>Tabel 6 Nederlandse vertegenwoordiging in aantallen bij ETSI, per organisatietype per participatievorm</p>
+<table>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Organisatietype</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+<th>Bijwonen meeting</th>
+<th>Totaal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nederlandse orgs, met internationaal</td>
+<td>24</td>
+<td>1</td>
+<td>182</td>
+<td>207</td>
+</tr>
+<tr class="even">
+<td>Nederlandse orgs, met internationaal</td>
+<td>43</td>
+<td>2</td>
+<td>567</td>
+<td>612</td>
+</tr>
+<tr class="odd">
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>5</td>
+<td>1</td>
+<td>133</td>
+<td>139</td>
+</tr>
+<tr class="even">
+<td>Formele vertegenwoordiging overheid</td>
+<td>40</td>
+<td>2</td>
+<td>652</td>
+<td>694</td>
+</tr>
+<tr class="odd">
+<td>Overheids-<br>
+organisaties</td>
+<td>3</td>
+<td></td>
+<td>14</td>
+<td>17</td>
+</tr>
+<tr class="even">
+<td>Totaal</td>
+<td>115</td>
+<td>6</td>
+<td>1.548</td>
+<td>1.669</td>
+</tr>
+</tbody>
+</table>
+
+<p>Tabel 7 Nederlandse participatie in aantallen als deel van totale ETSI-participatie</p>
+<table>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land van oorsprong</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+<th>Bijwonen<br>
+meeting</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Niet-Nederlands</td>
+<td>6.963</td>
+<td>615</td>
+<td>106.093</td>
+</tr>
+<tr class="even">
+<td>Nederlands</td>
+<td>115</td>
+<td>6</td>
+<td>1.548</td>
+</tr>
+</tbody>
+</table>
+
+<p>Formele rollen</p>
+<ul>
+<li><p>Ministerie van Economische Zaken (tweemaal)</p>
+</li>
+<li><p>EVE consulting solutions</p>
+</li>
+<li><p>Philips International B.V.</p>
+</li>
+<li><p>NXP Semiconductors Netherlands B.V.</p>
+</li>
+<li><p>Microsoft</p>
+</li>
+</ul>
+<p>Bij ETSI zijn “delegate”, “member”, “staff” en “observer” uitgesloten van de formele rollen.</p>
+<p>Aanwezigheid meetings</p>
+<p>Tabel 8. Aanwezigheid in aantallen bij ETSI-meetings per type organisatie per jaar</p>
+<table>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type organisatie</th>
+<th>2019</th>
+<th>2020</th>
+<th>2021</th>
+<th>2022</th>
+<th>2023</th>
+<th>2024</th>
+<th>Totaal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nederlandse orgs, met internationaal</td>
+<td>12</td>
+<td>39</td>
+<td>49</td>
+<td>26</td>
+<td>32</td>
+<td>24</td>
+<td>207</td>
+</tr>
+<tr class="even">
+<td>Nederlandse orgs, met internationaal</td>
+<td>58</td>
+<td>101</td>
+<td>119</td>
+<td>139</td>
+<td>93</td>
+<td>57</td>
+<td>612</td>
+</tr>
+<tr class="odd">
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>11</td>
+<td>29</td>
+<td>38</td>
+<td>29</td>
+<td>14</td>
+<td>12</td>
+<td>139</td>
+</tr>
+<tr class="even">
+<td>Formele vertegenwoordiging overheid</td>
+<td>40</td>
+<td>135</td>
+<td>135</td>
+<td>161</td>
+<td>100</td>
+<td>81</td>
+<td>694</td>
+</tr>
+<tr class="odd">
+<td>Overheids-<br>
+organisaties</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td>17</td>
+</tr>
+<tr class="even">
+<td>Totaal</td>
+<td>123</td>
+<td>306</td>
+<td>343</td>
+<td>358</td>
+<td>242</td>
+<td>176</td>
+<td>1669</td>
+</tr>
+</tbody>
+</table>
+
+</section><section id="x3-4-3gpp"><div class="header-wrapper"><h3 id="x3-4-3-4-3gpp"><bdi class="secno">3.4 </bdi>3.4 3GPP</h3><a class="self-link" href="#x3-4-3gpp" aria-label="Permalink for Section 3.4"></a></div>
+<p>Tabel 9 Nederlandse vertegenwoordiging in aantallen bij 3GPP, per organisatietype per participatievorm</p>
+<table>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Organisatietype</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+<th>Bijwonen meeting</th>
+<th>Totaal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nederlandse organisaties, niet internationaal</td>
+<td>94</td>
+<td>4</td>
+<td>557</td>
+<td>655</td>
+</tr>
+<tr class="even">
+<td>Nederlandse organisaties, met internationaal</td>
+<td>56</td>
+<td></td>
+<td>455</td>
+<td>511</td>
+</tr>
+<tr class="odd">
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>606</td>
+<td>9</td>
+<td>4323</td>
+<td>4938</td>
+</tr>
+<tr class="even">
+<td>Overheids-<br>
+organisaties</td>
+<td>7</td>
+<td>2</td>
+<td>61</td>
+<td>70</td>
+</tr>
+<tr class="odd">
+<td>Totaal</td>
+<td>763</td>
+<td>15</td>
+<td>5396</td>
+<td>6174</td>
+</tr>
+</tbody>
+</table>
+
+<p>Tabel 10 Nederlandse participatie in aantallen als deel van totale 3GPP-participatie</p>
+<table>
+<colgroup>
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land van oorsprong</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+<th>Bijwonen<br>
+meeting</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Niet-Nederlands</td>
+<td>28729</td>
+<td>816</td>
+<td>165022</td>
+</tr>
+<tr class="even">
+<td>Nederlands</td>
+<td>763</td>
+<td>15</td>
+<td>5396</td>
+</tr>
+</tbody>
+</table>
+
+<p>Formele rollen</p>
+<ul>
+<li><p>Nationale Politie (Twee personen/werkgroepen)</p>
+</li>
+<li><p>TNO/Koninklijke KPN (Vier personen/werkgroepen)</p>
+</li>
+<li><p>Qualcomm (Negen personen/werkgroepen)</p>
+</li>
+</ul>
+<p>Bij 3GPP zijn “delegate” en “staff” uitgesloten van de formele rollen.</p>
+<p>Aanwezigheid meetings</p>
+<p>Tabel 11. Aanwezigheid in aantallen bij 3GPP-meetings per type organisatie per jaar</p>
+<table>
+<thead>
+<tr>
+<th>Organisatietype</th>
+<th>2019</th>
+<th>2020</th>
+<th>2021</th>
+<th>2022</th>
+<th>2023</th>
+<th>2024</th>
+<th>Totaal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Nederlandse organisaties, met internationaal</td>
+<td>43</td>
+<td>100</td>
+<td>115</td>
+<td>99</td>
+<td>134</td>
+<td>66</td>
+<td>655</td>
+</tr>
+<tr>
+<td>Nederlandse organisaties, niet internationaal</td>
+<td>34</td>
+<td>62</td>
+<td>91</td>
+<td>108</td>
+<td>114</td>
+<td>46</td>
+<td>511</td>
+</tr>
+<tr>
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>231</td>
+<td>547</td>
+<td>802</td>
+<td>1121</td>
+<td>1131</td>
+<td>491</td>
+<td>4938</td>
+</tr>
+<tr>
+<td>Overheidsorganisaties</td>
+<td>5</td>
+<td>14</td>
+<td>13</td>
+<td>11</td>
+<td>12</td>
+<td>6</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Totaal</td>
+<td>313</td>
+<td>723</td>
+<td>1021</td>
+<td>1339</td>
+<td>1391</td>
+<td>609</td>
+<td>6174</td>
+</tr>
+</tbody></table>
+</section><section id="x3-5-itu"><div class="header-wrapper"><h3 id="x3-5-3-5-itu"><bdi class="secno">3.5 </bdi>3.5 ITU</h3><a class="self-link" href="#x3-5-itu" aria-label="Permalink for Section 3.5"></a></div>
+<p>Bij ITU zijn 4911 technische contributies verzameld. Er zijn <strong>geen contributies</strong> uit naam van als Nederlands aangewezen organisaties.</p>
+</section><section id="x3-6-ietf"><div class="header-wrapper"><h3 id="x3-6-3-6-ietf"><bdi class="secno">3.6 </bdi>3.6 IETF</h3><a class="self-link" href="#x3-6-ietf" aria-label="Permalink for Section 3.6"></a></div>
+<p>Tabel 12 Nederlandse vertegenwoordiging in aantallen bij IETF, per organisatietype per participatievorm</p>
+<table>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 21%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Organisatietype</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+<th>Bijwonen meeting</th>
+<th>Totaal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nederlandse organisaties, niet internationaal</td>
+<td>3</td>
+<td>2</td>
+<td>539</td>
+<td>544</td>
+</tr>
+<tr class="even">
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>22</td>
+<td>15</td>
+<td>1440</td>
+<td>1477</td>
+</tr>
+<tr class="odd">
+<td>Overheids-<br>
+organisaties</td>
+<td></td>
+<td></td>
+<td>57</td>
+<td>57</td>
+</tr>
+<tr class="even">
+<td>Totaal</td>
+<td>25</td>
+<td>17</td>
+<td>2036</td>
+<td>2078</td>
+</tr>
+</tbody>
+</table>
+
+<p>Tabel 13 Nederlandse participatie in aantallen als deel van totale IETF-participatie</p>
+<table>
+<colgroup>
+<col style="width: 32%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land van oorsprong</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+<th>Bijwonen<br>
+meeting</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Niet-Nederlands</td>
+<td>4167</td>
+<td>3914</td>
+<td>110170</td>
+</tr>
+<tr class="even">
+<td>Nederlands</td>
+<td>25</td>
+<td>17</td>
+<td>2036</td>
+</tr>
+</tbody>
+</table>
+
+<p>Formele rollen</p>
+<ul>
+<li><p>TU Delft / QUTech</p>
+</li>
+<li><p>PowerDNS/Open-Xchange</p>
+</li>
+<li><p>Microsoft (15)</p>
+</li>
+</ul>
+<p>Bij IETF zijn “member”, “delegate” en “robot” uitgesloten van de formele rollen.</p>
+<p>Aanwezigheid meetings</p>
+<p>Tabel 14. Aanwezigheid in aantallen bij IETF-meetings per type organisatie per jaar</p>
+<table>
+<thead>
+<tr>
+<th>Organisatietype</th>
+<th>2020</th>
+<th>2021</th>
+<th>2022</th>
+<th>2023</th>
+<th>2024</th>
+<th>Totaal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Nederlandse organisaties, niet internationaal</td>
+<td>80</td>
+<td>134</td>
+<td>135</td>
+<td>148</td>
+<td>42</td>
+<td>544</td>
+</tr>
+<tr>
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>152</td>
+<td>297</td>
+<td>388</td>
+<td>482</td>
+<td>121</td>
+<td>1477</td>
+</tr>
+<tr>
+<td>Overheidsorganisaties</td>
+<td></td>
+<td>10</td>
+<td>43</td>
+<td>4</td>
+<td></td>
+<td>57</td>
+</tr>
+<tr>
+<td>Totaal</td>
+<td>232</td>
+<td>441</td>
+<td>566</td>
+<td>634</td>
+<td>163</td>
+<td>2078</td>
+</tr>
+</tbody></table>
+</section><section id="x3-7-w3c"><div class="header-wrapper"><h3 id="x3-7-3-7-w3c"><bdi class="secno">3.7 </bdi>3.7 W3C</h3><a class="self-link" href="#x3-7-w3c" aria-label="Permalink for Section 3.7"></a></div>
+<p>Tabel 15. Nederlandse vertegenwoordiging in aantallen bij W3C, per organisatietype per participatievorm</p>
+<table>
+<colgroup>
+<col style="width: 32%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Organisatietype</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+<th>Totaal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nederlandse organisaties, niet internationaal</td>
+<td>31</td>
+<td></td>
+<td>31</td>
+</tr>
+<tr class="even">
+<td>Nederlandse organisaties, met internationaal</td>
+<td>16</td>
+<td></td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>242</td>
+<td>1</td>
+<td>243</td>
+</tr>
+<tr class="even">
+<td>Overheids-<br>
+organisaties</td>
+<td>6</td>
+<td></td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>Totaal</td>
+<td>295</td>
+<td>1</td>
+<td>296</td>
+</tr>
+</tbody>
+</table>
+
+<p>Tabel 16 Nederlandse participatie in aantallen als deel van totale W3C-participatie</p>
+<table>
+<colgroup>
+<col style="width: 35%">
+<col style="width: 32%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land van oorsprong</th>
+<th>Lid commissie/<br>
+werkgroep</th>
+<th>Formele rol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Niet-Nederlands</td>
+<td>16611</td>
+<td>17</td>
+</tr>
+<tr class="even">
+<td>Nederlands</td>
+<td>295</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+
+<p>Formele rollen</p>
+<ul>
+<li>Microsoft</li>
+</ul>
+</section><section id="x3-8-oasis"><div class="header-wrapper"><h3 id="x3-8-3-8-oasis"><bdi class="secno">3.8 </bdi>3.8 OASIS</h3><a class="self-link" href="#x3-8-oasis" aria-label="Permalink for Section 3.8"></a></div>
+<p>Tabel 17 Nederlandse vertegenwoordiging in aantallen bij OASIS, per organisatietype per participatievorm</p>
+<table>
+<thead>
+<tr>
+<th>Organisatietype</th>
+<th>Lid commissie/werkgroep</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Nederlandse organisaties, niet internationaal</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Nederlandse organisaties, met internationaal</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Nederlandse vestigingen van internationale organisaties</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Overheidsorganisaties</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Totaal</td>
+<td>42</td>
+</tr>
+</tbody></table>
+<p>Tabel 18. Nederlandse participatie als deel van totale OASIS -participatie</p>
+<table>
+<thead>
+<tr>
+<th>Land van oorsprong</th>
+<th>Lid commissie/werkgroep</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Niet-Nederlands</td>
+<td>3941</td>
+</tr>
+<tr>
+<td>Nederlands</td>
+<td>42</td>
+</tr>
+</tbody></table>
+</section></section>
     <section id="tof"></section>
     <section id="index" class="appendix"><div class="header-wrapper"><h2 id="a-index"><bdi class="secno">A. </bdi>Index</h2><a class="self-link" href="#index" aria-label="Permalink for Appendix A."></a></div><section id="index-defined-here">
     <div class="header-wrapper"><h3 id="a-1-begrippen-gedefinieerd-door-deze-specificatie"><bdi class="secno">A.1 </bdi>Begrippen gedefinieerd door deze specificatie</h3><a class="self-link" href="#index-defined-here" aria-label="Permalink for Appendix A.1"></a></div>
@@ -520,4 +1947,4 @@ function hidePanel(panel) {
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">ICTU Document - Document</div><script src="https://www.w3.org/scripts/TR/2021/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">ICTU Document - Document</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>

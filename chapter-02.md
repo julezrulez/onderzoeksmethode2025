@@ -1,253 +1,26 @@
 
-# 2. Overzicht gegevensverzameling per SDO
+# Inleiding
 
-## 2.1 CEN en CENELEC
+De digitalisering van onze samenleving groeit in een steeds sneller tempo en standaardisatie speelt hierin een cruciale rol: standaarden zijn essentieel om interoperabiliteit, veiligheid en innovatie te bevorderen in een wereld waarin digitale technologieën de grenzen overstijgen. Ook dragen ze bij aan kostenreductie door efficiëntie en herbruikbaarheid te stimuleren, helpen ze organisaties te voldoen aan compliance en regelgeving, en waarborgen ze kwaliteit en betrouwbaarheid van systemen en diensten. De Europese Commissie erkent [standaardisatie als een strategisch instrument](https://digital-strategy.ec.europa.eu/nl/policies/ict-and-standardisation) om de digitale soevereiniteit van Europa te waarborgen en de Europese belangen en waarden te verdedigen. Tegen deze achtergrond heeft ICTU van Forum Standaardisatie de opdracht gekregen om te onderzoeken hoe Nederlandse publieke en private organisaties deelnemen aan Europese en mondiale standaardisatie. De opdracht heeft als doel inzicht te verschaffen in de Nederlandse vertegenwoordiging binnen standaardisatie-organisaties op het gebied van ICT, zowel op Europees als mondiaal niveau. Daarnaast wil Forum Standaardisatie begrijpen welke factoren mogelijk bijdragen aan- of belemmeren dat Nederlandse partijen actiever hun belangen vertegenwoordigen. ICTU heeft onderzoeksbureau Dialogic betrokken bij het onderzoek, primair voor het uitvoeren van kwantitatieve analyses.
 
-CEN en CENELEC (*Comité Européen de Normalisation - Comité Européen de Normalisation Élecrotechnique*) heeft **nationale vertegenwoordigingen**, wat betekent dat namens Nederland de NEN lid is. Er worden experts afgevaardigd vanuit de NEN-normcommissies om die Nederlandse positie te vertegenwoordigen. Zij kunnen ook individueel deelnemen aan het opstellen van standaarden. Voor gegevens over individuele participaties zijn wij daarom afhankelijk van NEN. Het is niet mogelijk gebleken om voor afronding van deze studie die gegevens op te halen.
+Dit onderzoek is voor beleidsmakers van belang omdat het inzicht biedt in de mate van betrokkenheid van Nederland bij internationale standaardisatieprocessen, in de effectiviteit van deze betrokkenheid en in de mogelijke verbeteringen. Door goed te begrijpen waar en waarom Nederland wel en niet actief is, kunnen strategische beslissingen worden genomen om de positie van Nederland in internationale standaardisatie te versterken.  
+Ook kan de overheid met deze inzichten gericht actie ondernemen om de participatie te bevorderen van Nederlandse organisaties in strategisch belangrijke standaardisatietrajecten.
 
-## 2.2 ETSI
+## Aanleiding onderzoek
 
-ETSI (*European Telecommunications Standards Institute*) heeft een gemengde ledenstructuur. Van oorsprong kunnen organisaties lid worden van ETSI. Deze leden hebben dan stemrecht. Echter, onder druk van de EC moet voor geharmoniseerde standaarden gestemd worden door lidstaten. Daarom heeft ETSI voor geharmoniseerde standaarden nu een andere stemprocedure. Hierbij moet als kanttekening worden geplaatst dat stemmen niet vaak voorkomt. Uit onderzoek blijkt dat ETSI doorgaans met een consensusmodel beslist, bijvoorbeeld in 95,4% van de gevallen in het General Assembly. Het standaardisatieproces gaat echter nog wel zoals voorheen, door werkgroepen met de bestaande leden. Daarom richten wij ons voor deelname aan standaardisatie binnen ETSI op de organisatielidmaatschappen.
+Op Europees niveau groeit de aandacht voor de noodzaak van een standaardisatiestrategie en de governance van standaardisatie-organisaties, getuige ook het recent opgerichte High Level Forum on European Standardisation en de publicatie van ‘[An EU Strategy on Standardisation’](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/13099-Standardisation-strategy_en) door de Europese Commissie in 2022.
 
-Nederlandse ETSI-leden zijn verenigd in NELO (Nederlands ETSI-Leden Overleg). Positiebepaling voor geharmoniseerde standaarden gaat via NEPE (Nederlandse ETSI-EN Public Enquiry).
+Gezien het groeiende belang van standaardisatie in waardengedreven digitalisering en digitale autonomie, wil Forum Standaardisatie inzicht verkrijgen in de participatie van Nederlandse publieke- en private organisaties in Europese standaardisatie-organisaties. De achterliggende vraag is: heeft Nederland voldoende vertegenwoordiging in standaardisatie-organisaties en -activiteiten van strategisch belang? Kan de overheid hierin een stimulerende rol spelen?
 
-Om gegevens van ETSI te achterhalen hebben wij van het ministerie van Economische Zaken onder voorwaarden toegang gekregen tot het ledenportaal.
+Nota bene: ‘Standaardisatie’ verwijst naar het proces van het ontwikkelen en implementeren van standaarden. Dit kan 1) een formeel ontwikkelproces zijn (zoals bij NEN en ICE), 2) een informeel ontwikkelproces zijn bij industrieconsortia (zoals bij OASIS en W3C) en 3) een intern proces zijn binnen een organisatie. In het Nederlandse taalgebied wordt vaak de term ‘normalisatie’ gebruikt in de context van formele standaarden. In dit document wordt de alomvattende term ‘standaardisatie’ gebruikt.
 
-Voor ETSI hebben wij de volgende gegevens kunnen ophalen:
+## Het belang van standaardisatie als een strategisch instrument
 
-- Per orgaan binnen ETSI (bijv. WG/TC):
+De strategische waarde van standaardisatie is de laatste jaren sterk toegenomen. Standaardisatie is van belang voor:
 
-  - Afkorting
+- **Waardengedreven digitalisering:** de EU streeft naar digitalisering die niet alleen economisch van belang is, maar ook ethisch en maatschappelijk verantwoord. Denk hierbij aan standaarden voor kunstmatige intelligentie die discriminatie tegengaan of richtlijnen voor cybersecurity die privacy en gegevensbescherming garanderen.
 
-  - Naam
+- **Digitale autonomie:** de EU wil minder afhankelijk zijn van technologieën, standaarden en de leveranciers daarvan uit landen buiten de EU, [zoals de Verenigde Staten en China](https://magazines.cybersecurityraad.nl/csrmagazine/2022/01/03.-europa-neemt-voortouw-versterking-digitale-soevereiniteit). Door zelf geharmoniseerde standaarden te ontwikkelen die zijn gekoppeld aan EU-wetgeving, worden betere mogelijkheden geboden aan de EU om een eigen koers te varen en ervoor te zorgen dat Europese bedrijven concurrerend blijven. Daarnaast [promoot](https://single-market-economy.ec.europa.eu/single-market/european-standards/standardisation-policy/international-activities_en) de Europese Commissie EC-standaarden bij de drie internationale standaardisatie-organisaties ISO, IEC en ITU (bron: geïnterviewde EC-deelnemer).
 
-  - Leden met rol waar van toepassing
-
-  - Meetings van het orgaan
-
-- Per lid:
-
-  - Naam
-
-  - Organisatie
-
-- Per meeting van een orgaan:
-
-  - Datum
-
-  - Aanwezigen
-
-  - Evt. formele rol van aanwezige
-
-- Per organisatie:
-
-  - Naam
-
-  - Landcode
-
-## 2.3 3GPP
-
-3GPP (*3rd Generation Partnership Project*) heeft een structuur met zeven *Organisational Partners*. Deze zeven zijn regionale SDO’s op het gebied van telecom, ETSI namens Europa. De verdere partners zijn de Japanse *Association of Radio Industries and Business* en het *Telecommunication Technology Committee,* de Amerikaanse *Alliance for Telecommunications Industry Solutions*, de *China Communications Standards Association,* de Indiase *Telecommunications Standards Development Society* en de Zuid-Koreaanse *Telecommunictions Technology Association*. Leden van deze SDO’s kunnen zich ook aanmelden bij 3GPP. De vertegenwoordigers worden doorgaans bij naam genoemd, met organisatie ook beschikbaar.
-
-Voor 3GPP hebben wij de volgende gegevens kunnen ophalen:
-
-- Per orgaan binnen 3GPP (bijv. WG/TC):
-
-  - Code
-
-  - Naam
-
-  - Beschrijving
-
-  - Leden met rol waar van toepassing
-
-  - Meetings van het orgaan
-
-- Per lid:
-
-  - Naam
-
-  - Organisatie
-
-- Per meeting van een orgaan:
-
-  - Datum
-
-  - Aanwezigen
-
-  - Evt. formele rol van aanwezige (bijv: DELEGATE of CHAIR)
-
-- Per organisatie:
-
-  - Naam
-
-  - Landcode (onvolledig)
-
-## 2.4 ITU
-
-Binnen ITU (*International Telecommuncation Union*) ligt onze focus op studiegroepen van de ITU-T de tak van ITU waarbinnen gewerkt wordt aan standaarden. Binnen ITU zijn organisaties, individuen én landen lid. Zij kunnen dus ook een vertegenwoordiging sturen, rol vervullen of *technical contributions* indienen.geeft een illustratie van *technical contributions*. Ook bij ITU hebben wij via het ministerie van Economische Zaken toegang gekregen tot de gegevens.
-
-<img src="./media/image4.png" style="width:8.67315in;height:4.02797in" alt="Een tabel met technische contributies met &quot;Titel&quot; en &quot;Bron&quot;, waar de bron de organisatie is die de contributie indiende." />
-
-> Figuur 1. Technical contributions ITU. Bron: [\[itu.int\]](https://www.itu.int/md/T22-SG09-231114-C/en)
-
-Voor ITU bleek het onrealistisch om gegevens over de participatie te achterhalen, met uitzondering van formele rollen en *technical contributions*. Overige gegevens over participatie bleken slechts toegankelijk voor leden van de individuele werkgroepen.
-
-Dit levert de volgende gegevens op:
-
-- Per orgaan binnen ITU (bijv. WG/TC):
-
-  - Code
-
-  - Naam
-
-  - Beschrijving
-
-  - Leden met formele rol
-
-  - Technische contributies
-
-- Per lid met formele rol:
-
-  - Naam
-
-  - Organisatie
-
-- Per technische contributie:
-
-  - Titel
-
-  - Ondertekenende organisaties
-
-- Per organisatie:
-
-  - Naam
-
-## 2.5 ISO
-
-Bij ISO zijn nationale standaardisatie-organisaties lid, namens Nederland NEN. Andere organisaties (voornamelijk SDO’s) kunnen wel voorstellen indienen. Naar buiten toe worden de lidmaatschappen van de technische commissies per land weergegeven. Er worden wel experts afgevaardigd vanuit de NEN normcommissies om die Nederlandse positie te vertegenwoordigen. NEN heeft voor dit onderzoek gegevens opgevraagd bij ISO over de Nederlandse experts die deelnemen aan werkgroepvergaderingen. Dit bevat voor de jaren 2019 tot en met 2024 de volgende gegevens:
-
-- TC/Werkgroep code
-
-- TC/Werkgroep naam
-
-- Meeting id
-
-- Meeting type
-
-- Startdatum
-
-- Einddatum
-
-- Aantal deelnemers namens Nederland
-
-## 2.6 IEC
-
-Bij IEC kan per land één *National Committee* lid worden. Namens Nederland is dat het Netherlands Electrotechnical Committee (NEC). Binnen commissies kan net als bij ISO een rol als deelnemend lid worden gekozen of een rol als observer. Nederland is volwaardig lid, maar een aantal landen is ook affiliate. Er worden wel experts afgevaardigd vanuit NEN normcommissies om die Nederlandse positie te vertegenwoordigen. Hiervoor heeft NEN voor dit onderzoek gegevens opgevraagd bij IEC over de Nederlandse experts die deelnemen aan werkgroepvergaderingen. Dit bevat voor de jaren 2019 tot en met 2024 de volgende gegevens:
-
-- Naam participant
-
-- Meeting
-
-- Meeting type
-
-- Beschrijving
-
-- Rol bij de meeting
-
-- Main meeting (congres waar meeting deel van uitmaakt)
-
-- Locatie
-
-- Wijze van participatie
-
-- Goedkeuring participatie
-
-- Registratie (Submitted/Not submitted)
-
-- Startdatum
-
-- Einddatum
-
-## 2.7 IETF
-
-IETF heeft geen ledenstructuur. Iedereen kan zich aanmelden voor een werkgroep en wordt verwacht deel te nemen als individu. Deelnemers zijn dan dus niet organisatiegebonden, maar vaak wel afgevaardigde. IETF heeft een datatracker, waar langs een openbare API gegevens kunnen worden opgevraagd. Voor meetings zijn er verder zogeheten *bluenotes*, waarin aanwezigen met affiliatie staan voor elke meeting.
-
-Voor IETF zijn de volgende gegevens opgehaald:
-
-- Per orgaan binnen IETF (bijv. WG/TC):
-
-  - Afkorting
-
-  - Naam
-
-  - Beschrijving
-
-  - Type (volgens de hiërarchie van IETF; 23 categorieën)
-
-  - Parentorgaan (de organen zijn in een boomstructuur opgesteld en hangen uiteindelijk allen onder IETF zelf)
-
-  - Leden
-
-  - Meetings van het orgaan
-
-- Per lid:
-
-  - Naam
-
-  - E-mailadres
-
-  - Naam van organisatie, mits via de Datatracker of bluenotes herleidbaar
-
-- Per meeting van een orgaan:
-
-  - Datum
-
-  - Aanwezigen
-
-## 2.8 IEEE-SA
-
-IEEE-SA is de standaardisatie-organisatie van IEEE. Lidmaatschap van IEEE-SA kan als individu (bijvoorbeeld als student of als professional) of organisatie. Voor IEEE is het niet gelukt om toegang te krijgen tot gegevens over participatie op het gewenste niveau. Deze waren niet openbaar online beschikbaar en wij hebben hiervoor ook geen medewerking kunnen verkrijgen.
-
-## 2.9 W3C
-
-W3C draait om organisatielidmaatschap. Individuen mogen deelnemen, maar doen dat dan in de rol van “invited expert”. W3C heeft een goed toegankelijke API. Hier kan worden opgehaald wie lid is van werkgroepen, welke formele rol zij hebben en welke affiliaties deze personen hebben. De onderstaande gegevens waren daardoor eenvoudig beschikbaar.
-
-- Per orgaan binnen W3C (bijv. WG/TC):
-
-  - Naam
-
-  - Beschrijving
-
-  - Type (optioneel)
-
-  - Leden met formele rol waar relevant
-
-- Per lid:
-
-  - Naam
-
-  - E-mailadres (mits zelf opgegeven)
-
-  - Land (mits zelf opgegeven)
-
-  - Naam van de organisatie
-
-## 2.10 OASIS
-
-OASIS heeft organisatielidmaatschap. Medewerkers van leden kunnen deelnemen aan standaardisatieprocessen. Het maakt standaarden via technical committees (TC’s), maar er is ook ruimte voor open projecten. Voor OASIS hebben wij de volgende gegevens kunnen achterhalen:
-
-- Per orgaan binnen OASIS (bijv. WG/TC):
-
-  - Afkorting
-
-  - Naam
-
-  - Leden
-
-- Per lid:
-
-  - Naam (optioneel)
-
-  - Naam van de organisatie
+- **Complexiteit en concurrentie:** op internationaal vlak groeit naast het aantal en de typen organisaties dat zich met standaardisatie bezighoudt, ook de complexiteit van de onderwerpen waarvoor standaarden worden ontwikkeld. Voor zowel de Nederlandse overheid als voor het Nederlandse bedrijfsleven is het daarom belangrijk om gericht te investeren in deelname aan díe standaardisatie-organisaties waar strategische belangen op het spel staan, zoals de handelspositie, het concurrentievermogen en de digitale strategische autonomie. Deze belangen zijn eveneens relevant voor het mkb, dat meer moeite zal hebben dan grote bedrijven om te investeren in deelname aan standaardisatieprocessen.
 

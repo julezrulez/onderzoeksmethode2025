@@ -23,8 +23,8 @@ var respecConfig = {
     [
       {
         name: "ICTU en Dialogic",
-//        company: "",
-//        companyURL: "",
+        company: "",
+        companyURL: "",
       }
     ],
   //github: "https://github.com/Logius-standaarden/ReSpec-template",

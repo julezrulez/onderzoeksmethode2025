@@ -6,7 +6,7 @@ var respecConfig = {
   specType: "basis",
   pubDomain: "",
   shortName: "template",
-  publishDate: "2025-april",
+  publishDate: "2025-04-01",
   publishVersion: "1.0.0",
   title: "Nederland en standaardisatie: kansen benutten",
   // previousPublishVersion: "(none)",
